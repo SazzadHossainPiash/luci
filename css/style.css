@@ -1,0 +1,44 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* header section */
+
+.header-section {
+    background: url("../Images/bg.png") center top no-repeat;
+    background-size: cover;
+}
+
+.header-section .menu-section {
+    padding-top: 30px;
+}
+
+.header-section .menu-section img {
+    margin-top: 10px;
+    display: block;
+}
+
+.header-section .menu-section .main-menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+}
+
+.header-section .menu-section .main-menu ul li {
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.header-section .menu-section .main-menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-weight: 600;
+    display: block;
+}
